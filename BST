@@ -1,0 +1,17 @@
+Introduction
+● These are the specific types of binary trees.
+● These are inspired by the binary search algorithm.
+● Time complexity on insertion, deletion, and searching reduces significantly as
+it works on the principle of binary search rather than linear search, as in the
+case of normal binary trees (will discuss it further).
+
+Binary Search Tree Property
+In binary search trees, all the left subtree elements should be less than root data
+and all the right subtree elements should be greater than root data. This is called
+Binary Search Tree property.
+● The left subtree of a node ONLY contains nodes with keys less than the
+node’s key.
+● The right subtree of a node ONLY contains nodes with keys greater than the
+node’s key.
+● Both the left and right subtrees must also be binary search trees.
+Note: The BST property should be satisfied at every node in the tree.
